@@ -1,0 +1,75 @@
+div.inf{
+width:80%;
+position: relative;
+margin-top: 20px;
+}
+
+div.vert_menu{
+	float: left;
+	width: 30%;
+	height: 2500px;
+}
+
+/*li.vert_menu:hover{
+	border-bottom: 5px solid #024A68; 
+  }*/
+
+table,td,tr{
+   border: 0.5px solid black;
+   border-collapse: collapse;
+}  
+
+td,tr{
+	padding: 8px;
+	margin: 2px;
+}
+
+.second{
+	background-color: #f2f2f2;
+}
+
+td:hover {background-color: #ddd;}
+
+#curr{
+	color: grey;
+}
+
+li.subchapt{
+	width:300px;
+}
+
+#menuParagraph{
+	height: 30px;
+	width: 30px;
+	background-color: white;
+	border-color: white;
+	float: right;
+	color: #fff;
+  	border: 1px solid #fff;
+	outline: none;
+}	
+
+.block{ 
+	border: 10px solid transparent; /* Прозрачные границы */
+	border-top: 15px solid black; /* Добавляем треугольник */
+	   }
+  
+  
+  #menuSubparagraph{
+	height: 120px;
+	width: 150px;
+	text-align: left;
+	display: none;
+	background-color: white;
+  }
+
+ div.content{
+	 width: 70%;
+	 float: right;
+ } 
+
+ p.sub{
+	font-family: 'Handlee', cursive;
+	font-size: 18px;
+	text-align: right;
+ }

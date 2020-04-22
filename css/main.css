@@ -1,0 +1,136 @@
+body{
+  background-color: #A9A9A9;
+  width:100%;
+}
+
+.all {
+  width: 80%;
+  margin:auto;
+  background-color: white;
+  height: 3000px;
+}
+
+img.leftt{
+  float:left; 
+  margin: 7px 7px 17px 0;
+  width: 850px;
+  height: 1100px;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 35pt;
+}
+
+p {
+  font-family: 'Handlee', cursive;
+  font-size: 24px;
+  letter-spacing: 1pt;
+}
+
+a{
+  text-decoration: none;
+  display: block;
+  font-family: 'Handlee', cursive;
+  font-size: 20px;
+  color: black;
+}
+
+div.menu {
+  position: relative;
+  height: 110px;
+  margin: 10px;
+
+}
+
+
+ul{
+  margin: 30px 0 4px;
+  list-style: none;
+  padding: 0px;
+}
+
+li.chapt{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+li.chapt:hover{
+  border-bottom: 5px solid lightgrey; 
+}
+
+p.menu:hover{
+  color: lightgrey;
+}
+
+#hat {
+  width: 233px;
+  height: 107px;
+  float: left;
+  margin-right: 10px;
+}
+
+div.inf{
+  border-top: 0.5px solid #C0C0C0; 
+  padding: 20px;
+}
+
+#current{
+	border-bottom:5px solid grey; 
+}
+
+.desc{
+  font-size: 25pt;
+  text-align: center;
+}
+
+#descr{
+  font-size: 25pt;
+}
+
+#menuParagraph{
+  height: 30px;
+  width: 120px;
+  background-color: lightgray;
+  display: block;
+}
+
+#menuSubparagraph{
+  height: 30px;
+  width: 120px;
+  background-color: grey;
+  text-align:center;
+}
+
+/*#back{
+  opacity: .3;
+}
+
+
+
+body {
+  margin: 0;
+  background-image: url(https://html5book.ru/wp-content/uploads/2017/01/photo-roses.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  text-align: center;
+}
+.image-caption {
+  transform: translate(-50%, -50%);
+  position: absolute; 
+  top: 50%; 
+  left: 50%;
+  padding: 30px 50px;
+  background: rgba(255,255,255,.6);
+}
+
+*/
+
+/*div.finder{
+	float:left;
+}*/
