@@ -1,55 +1,5 @@
-<!DOCTYPE html>
-<html lang="ru" class="no-js">
-<head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta content='width=960' name='viewport'>
-<title>Автороведческая экспертиза</title>
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<link rel="stylesheet" type="text/css" href="css/experts.css">
-<script src="1.js"></script>
-</head>
-<body>
-		<div class="all">
-				<div id="hat"><img alt="Судебная лингвистическая экспертиза" src="images/emblema.png"></div>
-				<div class="menu"> 
-					<nav>
-						<ul class="topmenu">
-							<li class="chapt" > <a href="main.html"><p class="menu"> Главная</p></a> </li>
-							<li class="chapt"><a href="news.html"><p class="menu"> Новости</p></a> </li>
-							<li class="chapt" id="current"><a href="experts.html"><p class="menu">  Виды экспертиз</p></a></li>
-							<li class="chapt"><a href="biblio.html"><p class="menu"> Библиотека</p> </a></li>
-							<li class="chapt"><a href="about.html"><p class="menu"> О сайте </p></a></li>
-							<li class="chapt"><a href="cont.html"><p class="menu"> Контакты</p> </a></li>
-						</ul>	
-					</nav>
-				</div>
-				<div class="inf">
-					<div class="vert_menu"> 
-						<nav>
-							<ul class="menu">
-								
-								<li class="subchapt"><button id='menuParagraph' onClick='menuButtonOnClick()'><div class="block"></div> </button> <a href="author.html">  <p>Автороведческая экспертиза  </p> </a>
-									
-									<div id='menuSubparagraph'>
-									<ul class="subsub">
-									<li class="subchapt"><a href="identif.html"><p class="sub"> Идентификационная экспертиза </p> </a>
-									</li>
-									<li class="subchapt"><a href="diagn.html"><p  class="sub">Диагностическая экспертиза </p> </a>
-									</li>
-									</ul>
-									</div>
-								</li>
-							<li class="subchapt"><a href="abuse.html"><p> Оскорбление</p> </a> 	</li>
-							<li class="subchapt"><a href="protect.html" id="curr"><p> Защита чести, достоинства, деловой репутации</p></a> </li>
-							<li class="subchapt"><a href="estremism.html"><p>Экстремизм </p> </a></li>
-							<li class="subchapt"><a href="corrupt.html"><p>Антикоррупционные дела </p> </a></li>
-							<li class="subchapt"><a href="threat.html"><p>Дела об угрозе </p> </a></li>	
-							</ul>		
-					</nav>
-				</div>
-
-
-
+{% extends "experts.html" %}
+{% block content %}
 <div class="content">
 <h4 id="name_protect">Защита чести, достоинства, деловой репутации</h4>
 	<p> По статистике, среди речевых преступлений чаще всего в рассматриваемых судом делах фигурируют именно дела о защите чести и достоинства граждан, а также деловой репутации граждан и юридических лиц. <br />
@@ -80,5 +30,4 @@
 Вывод: Оценочные суждения как таковые отражают мнение говорящего и не могут быть проверены на соответствие действительности. Однако оценочные суждения также могут быть признаны судом порочащими в отношении определенного лица, если основаны на ложном утверждении о фактах, а следовательно, лишены фактической основы, являются преувеличенными и чрезмерными (в терминах Европейского суда по правам человека).
 Проверка сведений на соответствие действительности во всех случаях выходит за пределы компетенции экспертов-лингвистов, относится к компетенции суда. </p>
 </div>
-</body>
-</html>
+{% endblock content %}
