@@ -14,62 +14,62 @@ def about():
 
 
 @app.route("/types_of_expertises")
-def about():
+def experts():
     return render_template('experts.html', title='Виды экспертиз')
 
 
 @app.route("/types_of_expertises/identificial")
-def about():
+def identif():
     return render_template('identif.html', title='Идентификационная экспертиза')
 
 
 @app.route("/types_of_expertises/threat")
-def about():
+def threat():
     return render_template('threat.html', title='Дела об угрозе')
 
 
 @app.route("/types_of_expertises/protect_honor")
-def about():
-    return render_template('threat.html', title='Защита чести и достоинства')
+def protect():
+    return render_template('protect.html', title='Защита чести и достоинства')
 
 
 @app.route("/types_of_expertises/author")
-def about():
+def author():
     return render_template('author.html', title='Автороведческая экспертиза')
 
 
 @app.route("/news")
-def about():
+def news():
     return render_template('news.html', title='Новости')
 
 
 @app.route("/types_of_expertises/abuse")
-def about():
+def abuse():
     return render_template('abuse.html', title='Оскробление')
 
 
 @app.route("/library")
-def about():
+def biblio():
     return render_template('biblio.html', title='Библиотека')
 
 
 @app.route("/contacts")
-def about():
+def contacts():
     return render_template('cont.html', title='Контакты')
 
 
 @app.route("/types_of_expertises/corruption")
-def about():
+def corrupt():
     return render_template('corrupt.html', title='Антикоррупционные дела')
 
 
 @app.route("/types_of_expertises/dignostical")
-def about():
-    return render_template('.html', title='Жиагностическая экспертиза')
+def diagn():
+    return render_template('diagn.html', title='Диагностическая экспертиза')
 
 
 @app.route("/extremism")
-def about():
+def extremism():
     return render_template('extremism.html', title='Экстремизм')
 
 
