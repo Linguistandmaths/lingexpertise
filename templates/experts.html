@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="ru" class="no-js">
+<html lang="ru" class="js">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta content='width=960' name='viewport'>
 <title>Виды экспертиз</title>
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<link rel="stylesheet" type="text/css" href="css/experts.css">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/experts.css') }}">
 
 </head>
 <body>
-		<script src="JS/1.js"></script>
+		<script src="{{ url_for('static', filename='js/1.js') }}"></script>
 	<div class="all">
-		<div id="hat"><img alt="Судебная лингвистическая экспертиза" src="images/emblema.png"></div>
+		<div id="hat"><img alt="Судебная лингвистическая экспертиза" src="{{ url_for('static', filename='images/emblema.png') }}"></div>
 		<div class="menu"> 
 			<nav>
 				<ul class="topmenu">
