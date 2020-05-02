@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 app = Flask(__name__)
 
 
@@ -63,12 +63,12 @@ def corrupt():
     return render_template('corrupt.html', title='Антикоррупционные дела')
 
 
-@app.route("/types_of_expertises/dignostical")
+@app.route("/types_of_expertises/diagnostical")
 def diagn():
     return render_template('diagn.html', title='Диагностическая экспертиза')
 
 
-@app.route("/extremism")
+@app.route("/types_of_expertises/extremism")
 def extremism():
     return render_template('extremism.html', title='Экстремизм')
 
