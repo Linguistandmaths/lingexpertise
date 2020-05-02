@@ -18,22 +18,22 @@ def experts():
     return render_template('experts.html', title='Виды экспертиз')
 
 
-@app.route("/types_of_expertises/identificial")
+@app.route("/identificial")
 def identif():
     return render_template('identif.html', title='Идентификационная экспертиза')
 
 
-@app.route("/types_of_expertises/threat")
+@app.route("/threat")
 def threat():
     return render_template('threat.html', title='Дела об угрозе')
 
 
-@app.route("/types_of_expertises/protect_honor")
+@app.route("/protect_honor")
 def protect():
     return render_template('protect.html', title='Защита чести и достоинства')
 
 
-@app.route("/types_of_expertises/author")
+@app.route("/author")
 def author():
     return render_template('author.html', title='Автороведческая экспертиза')
 
@@ -43,7 +43,7 @@ def news():
     return render_template('news.html', title='Новости')
 
 
-@app.route("/types_of_expertises/abuse")
+@app.route("/abuse")
 def abuse():
     return render_template('abuse.html', title='Оскробление')
 
@@ -58,17 +58,17 @@ def contacts():
     return render_template('cont.html', title='Контакты')
 
 
-@app.route("/types_of_expertises/corruption")
+@app.route("/corruption")
 def corrupt():
     return render_template('corrupt.html', title='Антикоррупционные дела')
 
 
-@app.route("/types_of_expertises/diagnostical")
+@app.route("/diagnostical")
 def diagn():
     return render_template('diagn.html', title='Диагностическая экспертиза')
 
 
-@app.route("/types_of_expertises/extremism")
+@app.route("/extremism")
 def extremism():
     return render_template('extremism.html', title='Экстремизм')
 

@@ -20,12 +20,12 @@ img.leftt{
 h2 {
   color: black;
   text-align: center;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Open Sans', sans-serif;
   font-size: 35pt;
 }
 
 p {
-  font-family: 'Handlee', cursive;
+  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   letter-spacing: 1pt;
 }
@@ -33,7 +33,7 @@ p {
 a{
   text-decoration: none;
   display: block;
-  font-family: 'Handlee', cursive;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   color: black;
 }
