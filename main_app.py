@@ -73,5 +73,10 @@ def extremism():
     return render_template('extremism.html', title='Экстремизм')
 
 
+@app.route("/advertisement")
+def extremism():
+    return render_template('advertisement.html', title='Дела о рекламе и о спорных товарных знаках')
+
+
 if __name__ == '__main__':
     app.run(debug=True)
