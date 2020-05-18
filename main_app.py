@@ -74,7 +74,7 @@ def extremism():
 
 
 @app.route("/advertisement")
-def extremism():
+def advert():
     return render_template('advertisement.html', title='Дела о рекламе и о спорных товарных знаках')
 
 
