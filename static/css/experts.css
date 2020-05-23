@@ -15,13 +15,21 @@ div.vert_menu{
   }*/
 
 table,td,tr{
-   border: 0.5px solid black;
+   border: 0px;
    border-collapse: collapse;
 }  
 
 td,tr{
-	padding: 8px;
-	margin: 2px;
+	padding: 16px;
+	margin: 8px;
+}
+
+td{
+    width: 30%
+}
+
+tr{
+    height:500px
 }
 
 .second{

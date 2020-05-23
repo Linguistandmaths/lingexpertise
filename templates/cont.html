@@ -1,4 +1,13 @@
 {% extends "main.html" %}
+{% block menu %}
+
+				<li class="chapt" > <a href="home"><p class="menu"> Главная</p></a> </li>
+				<li class="chapt"><a href="news"><p class="menu"> Новости</p></a> </li>
+				<li class="chapt"><a href="types_of_expertises"><p class="menu">  Виды экспертиз</p></a></li>
+				<li class="chapt" ><a href="library"><p class="menu"> Библиотека</p> </a></li>
+				<li class="chapt"><a href="about"><p class="menu"> О сайте </p></a></li>
+				<li class="chapt" id="current"><a href="contacts"><p class="menu"> Контакты</p> </a></li>
+		{% endblock menu %}
 {% block content %}
 	<div class="inf">
 	<p class="desc"> Если у вас возникли вопросы, то можете связаться по электронной почте:

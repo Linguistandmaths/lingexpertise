@@ -52,6 +52,12 @@ ul{
   padding: 0px;
 }
 
+ul.target{
+  margin: 30px 0 4px;
+  list-style-type: square;
+  padding: 0px;
+}
+
 li.chapt{
   display: inline-block;
   margin-right: 10px;

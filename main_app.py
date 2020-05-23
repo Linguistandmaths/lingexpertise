@@ -15,7 +15,7 @@ def about():
 
 @app.route("/types_of_expertises")
 def experts():
-    return render_template('experts.html', title='Виды экспертиз')
+    return render_template('main_experts.html', title='Виды экспертиз')
 
 
 @app.route("/identificial")
@@ -71,6 +71,11 @@ def diagn():
 @app.route("/extremism")
 def extremism():
     return render_template('extremism.html', title='Экстремизм')
+
+
+@app.route("/advertisement")
+def advert():
+    return render_template('advertisement.html', title='Дела о рекламе и о спорных товарных знаках')
 
 
 if __name__ == '__main__':
