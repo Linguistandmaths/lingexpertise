@@ -15,7 +15,7 @@ def about():
 
 @app.route("/types_of_expertises")
 def experts():
-    return render_template('experts.html', title='Виды экспертиз')
+    return render_template('main_experts.html', title='Виды экспертиз')
 
 
 @app.route("/identificial")

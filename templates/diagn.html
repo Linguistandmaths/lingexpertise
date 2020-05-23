@@ -1,4 +1,31 @@
 {% extends "experts.html" %}
+		{% block menu%}
+			<div class="vert_menu">
+			<nav>
+				<ul class="menu">
+
+					<li class="subchapt"><button id='menuParagraph' onClick='menuButtonOnClick()'><div class="block"></div> </button> <a href="author">  <p>Автороведческая экспертиза  </p> </a>
+
+						<div id='menuSubparagraph'>
+						<ul class="subsub">
+						<li class="subchapt"><a href="identificial"><p class="sub"> Идентификационная экспертиза </p> </a>
+						</li>
+						<li class="subchapt"><a href="diagnostical"><p  class="sub" id="curr">Диагностическая экспертиза </p> </a>
+						</li>
+						</ul>
+						</div>
+					</li>
+				<li class="subchapt"><a href="abuse"><p> Оскорбление</p> </a> 	</li>
+				<li class="subchapt"><a href="protect_honor"><p> Защита чести, достоинства, деловой репутации</p></a> </li>
+				<li class="subchapt"><a href="extremism"><p>Экстремизм </p> </a></li>
+				<li class="subchapt"><a href="corruption"><p>Антикоррупционные дела </p> </a></li>
+				<li class="subchapt"><a href="threat"><p>Дела об угрозе </p> </a></li>
+				<li class="subchapt"><a href="advertisement"><p>Дела о рекламе и о спорных товарных знаках</p> </a></li>
+				</ul>
+		</nav>
+	</div>
+	{% endblock %}
+
 {% block content %}
 <div class="content">
 <h4>Диагностическая экспертиза</h4>	
