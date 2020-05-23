@@ -9,17 +9,21 @@
 <body>
 	<script src="{{ url_for('static', filename='js/1.js') }}"></script>
 	<div class="all">
-	<div id="hat"><a href="/"><img alt="Судебная лингвистическая экспертиза" src="{{ url_for('static', filename='images/emblema.png') }}">  </a></div>
+	<div id="hat"><a href="home"><img alt="Судебная лингвистическая экспертиза" src="{{ url_for('static', filename='images/emblema.png') }}">  </a></div>
     <div class="menu"> 
 		<nav>
 			<ul class="topmenu">
+				{% block menu %}
+
 				<li class="chapt" id="current"> <a href="home"><p class="menu"> Главная</p></a> </li>
 				<li class="chapt"><a href="news"><p class="menu"> Новости</p></a> </li>
 				<li class="chapt"><a href="types_of_expertises"><p class="menu">  Виды экспертиз</p></a></li>
 				<li class="chapt"><a href="library"><p class="menu"> Библиотека</p> </a></li>
 				<li class="chapt"><a href="about"><p class="menu"> О сайте </p></a></li>
 				<li class="chapt"><a href="contacts"><p class="menu"> Контакты</p> </a></li>
-			</ul>	
+		{% endblock menu%}
+
+			</ul>
 		</nav>
 	</div>
 	<!--<div class="navigation"> Здесь будет путь пользователя</div>
