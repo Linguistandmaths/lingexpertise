@@ -36,10 +36,32 @@ h2 {
   font-size: 35pt;
 }
 
-p {
+p.menu {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   letter-spacing: 1pt;
+}
+
+p.menu:hover{
+  color: lightgrey;
+}
+
+p.desc{
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1pt;
+  font-size: 25pt;
+  text-align: justify;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p.text{
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1pt;
+  font-size: 15pt;
+  text-align: justify;
 }
 
 a{
@@ -79,10 +101,6 @@ li.chapt:hover{
   border-bottom: 5px solid lightgrey; 
 }
 
-p.menu:hover{
-  color: lightgrey;
-}
-
 #hat {
   width: 233px;
   height: 107px;
@@ -97,15 +115,6 @@ div.inf{
 
 #current{
 	border-bottom:5px solid grey; 
-}
-
-.desc{
-  font-size: 25pt;
-  text-align: center;
-}
-
-#descr{
-  font-size: 25pt;
 }
 
 #menuParagraph{

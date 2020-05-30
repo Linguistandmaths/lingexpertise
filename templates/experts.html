@@ -4,11 +4,21 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta content='width=960' name='viewport'>
 <title>Виды экспертиз</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/experts.css') }}">
 
 </head>
 <body>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
 		<script src="{{ url_for('static', filename='js/1.js') }}"></script>
 	<div class="all">
 		<div id="hat"> <a href="home"><img alt="Судебная лингвистическая экспертиза" src="{{ url_for('static', filename='images/emblema.png') }}"> </a></div>
@@ -53,8 +63,8 @@
 			</div>
 			{% endblock %}
 
-			{% block content%}
 			<div class="content">
+			{% block content%}
 				<p class="desc">  Выберите тип экспертизы </p>
 				<table>
 					<tr>
@@ -74,8 +84,8 @@
 						<td> <a href="advertisement"><p>Дела о рекламе и о спорных товарных знаках</p> </a></td>
 					</tr>
 				</table>
-			</div>
 			{% endblock %}
+			</div>
 		</div>
 	</div>
 	<div class="bottom">
@@ -84,22 +94,3 @@
 </body>
 </html>
 
-<!--
-	 <style>
-   .block {
-    background: green;
-    border-radius: 10px;
-    padding: 20px;
-    position: relative;
-    color: #fff;
-   }
-   .block::after {
-    content: '';
-    position: absolute; /* Абсолютное позиционирование */
-    left: 20px; bottom: -20px; /* Положение треугольника */
-    border: 10px solid transparent; /* Прозрачные границы */
-    border-top: 10px solid green; /* Добавляем треугольник */
-   }
-  </style>
-
--->
