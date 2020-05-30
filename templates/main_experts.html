@@ -9,7 +9,7 @@
 
 </head>
 <body>
-		<script src="{{ url_for('static', filename='js/1.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/1.js') }}"></script>
 	<div class="all">
 		<div id="hat"> <a href="home"><img alt="Судебная лингвистическая экспертиза" src="{{ url_for('static', filename='images/emblema.png') }}"> </a></div>
 		<div class="menu">
@@ -26,33 +26,25 @@
 		</div>
 
 		<div class="inf">
+				<p class="desc">  Выберите тип экспертизы </p>
+				<table>
+					<tr>
+					 	<td> <a href="author"> <p>Автороведческая экспертиза  </p> </a> </td>
+					 	<td> <a href="identificial"> <p> Идентификационная экспертиза </p> </a> </td>
+						<td> <a href="diagnostical"> <p>Диагностическая экспертиза </p> </a></td>
+					</tr>
 
-			{% block content %}
-
-
-	<div width="100%">
-		<p  class="desc">  Выберите тип экспертизы </p>
-		<table>
-			<tr>
-			 <td> <a href="author">  <p>Автороведческая экспертиза  </p> </a> </td>
-			 <td> 			<a href="identificial"><p> Идентификационная экспертиза </p> </a> </td>
-						<td>  <a href="diagnostical"><p>Диагностическая экспертиза </p> </a></td>
-			</tr>
-
-			<tr class="second">
-				<td> 	<a href="abuse"><p> Оскорбление</p> </a> </td>
+					<tr class="second">
+						<td> 	<a href="abuse"><p> Оскорбление</p> </a> </td>
 						<td><a href="protect_honor"><p> Защита чести, достоинства, деловой репутации</p></a></td>
 						<td> <a href="extremism"><p>Экстремизм </p> </a> </td>
-			</tr>
-			<tr>
-			<td> <a href="corruption"><p>Антикоррупционные дела </p> </a></td>
-				<td> <a href="threat"><p>Дела об угрозе </p> </a> </td>
-				<td> <a href="advertisement"><p>Дела о рекламе и о спорных товарных знаках</p> </a></td>
-			</tr>
-
+					</tr>
+					<tr>
+						<td> <a href="corruption"><p>Антикоррупционные дела </p> </a></td>
+						<td> <a href="threat"><p>Дела об угрозе </p> </a> </td>
+						<td> <a href="advertisement"><p>Дела о рекламе и о спорных товарных знаках</p> </a></td>
+					</tr>
 				</table>
-	</div>
-	{% endblock %}
 		</div>
 	</div>
 
