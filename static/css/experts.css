@@ -1,5 +1,5 @@
 div.inf{
-width:80%;
+width:100%;
 position: relative;
 margin-top: 20px;
 }
@@ -29,7 +29,7 @@ td{
 }
 
 tr{
-    height:500px;
+    height:250px;
 }
 
 .second{

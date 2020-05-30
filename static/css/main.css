@@ -13,10 +13,12 @@ body{
 div.bottom{
   width: 100%;
   height: 100px;
+  background-color: white;
 }
 
 p.bottom{
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
   font-size: 14px;
 
 }
