@@ -1,6 +1,7 @@
 body{
   background-color: #A9A9A9;
   width:100%;
+  height:2580px;
 }
 
 .all {
@@ -12,7 +13,7 @@ body{
 
 div.bottom{
   width: 100%;
-  height: 50px;
+  height: 80px;
   background-color: white;
 }
 
