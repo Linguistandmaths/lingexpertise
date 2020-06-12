@@ -50,7 +50,7 @@ def abuse():
 
 @app.route("/library")
 def biblio():
-    return render_template('biblio.html', title='Библиотека')
+    return render_template('library.html', title='Библиотека')
 
 
 @app.route("/contacts")
